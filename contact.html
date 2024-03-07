@@ -2,24 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - ReadRover</title>
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    <section>
-        <div class="centerContainer">
-            <div class="centerText">
-                <h1 class="maintext">Contact Us</h1>
-                <p>You can reach us through the following channels:</p>
-                <ul>
-                    <li>Email: contact@readrover.com</li>
-                    <li>Phone: +91 6374566681</li>
-                    <li>Address: P.S.R. Engineering College, Sivakasi.</li>
-                </ul>
+    <div class="main">
+        <div class="image">
+            <img src="book3.png" alt="img" width="60%" height="30%">
+            <div class="label">
+            <h1>Contact Us</h1>
+                <input type="text" id="firstname" name="ftname" placeholder= "Enter your name :" size="20" required/>   <br><br>
+                <input type="text" id="email" name="Email" placeholder= "Enter a valid email address :" size="20" required/> <br><br>
+                <input type="text" id="phone" name="Phone" placeholder="Phone Number" size="10" required/> <br><br>
+                Message : <br>
+                <textarea cols="80" rows="7" value="Message"></textarea> 
+                <button onclick="SubmitEvent">SEND MESSAGE</button>
             </div>
-            <img src="homeImage.png" class="centerImage" height="555px"/>
         </div>
-    </section>
+        <div class="icon">
+            <div class="map">
+                <img src="placeholder.png">
+                <p>Our&nbsp;Main&nbsp;Location</p>
+            </div>
+            <div class="phone">
+                <img src="telephone.png">
+                <p>Phone&nbsp;Number</p>
+            </div>
+            <div class="mail">
+                <img src="mail.png">
+                <p>E-&nbsp;Mail</p>
+            </div>
+            <div class="time">
+                <img src="alarm.png">
+                <p>Opening&nbsp;Time</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

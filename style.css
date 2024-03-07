@@ -7,7 +7,7 @@ body{
 
 .container{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;   
     padding-top: 1rem; 
@@ -18,14 +18,14 @@ body{
 
 .logo{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
 }
 
 .navbar{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content:space-between;
     align-items: center;
 }
@@ -57,7 +57,7 @@ a{
 
 .it{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content:space-around;
     padding-left: 50px;
     padding-right: 50px;
@@ -81,7 +81,7 @@ p{
 
 .centerContainer{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;   
 }
@@ -96,7 +96,7 @@ p{
 
 .centerbtn{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;   
 }

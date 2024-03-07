@@ -1,48 +1,80 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif ;
+*{
     background-color: #e1f8fc;
 }
-.contactText {
-    margin-bottom: 2rem;
+.image img{
+    margin: 100px;
+    margin-top: 40px;
+    margin-left: 300px;
 }
-
-header {
-    background-color: #fefefe;
-    padding: 1rem;
+.label{
+    margin-left: 500px;
+    margin-top: -600px;
+    color: #64153a;
+    font-weight: bold;
 }
-footer {
-    background-color: #fefefe;
-    padding: 1rem;
+.label h1{
+    color: #52006A;
 }
-section {
-    background-color: #e1f8fc;
-    padding: 2rem;
+.label button{
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 700px;
+    padding: 10px;
+    color: rgb(85, 29, 87);
 }
-
-.centerContainer {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;   
-    margin-top: 2rem; 
+.icon .map img{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 350px;
+    width: 50px;
+    height: 50px;
 }
-
-.centerText {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: center;   
+.icon .map p{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 260px;
+    width: 50px;
+    height: 50px;
 }
-
-.maintext {
-    font-size: 30px;
-    margin-bottom: 1rem; 
+.icon .phone img{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 610px;
+    width: 50px;
+    height: 50px;
 }
-
-.centerImage {
-    filter: drop-shadow(7px 7px 7px #3b3b3b);
-    -webkit-filter: drop-shadow(7px 7px 7px #3b3b3b);
-    margin-top: 1rem; 
+.icon .phone p{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 585px;
+    width: 50px;
+    height: 50px;
+}
+.icon .mail img{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 880px;
+    width: 50px;
+    height: 50px;
+}
+.icon .mail p{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 880px;
+    width: 50px;
+    height: 50px;
+}
+.icon .time img{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1150px;
+    width: 50px;
+    height: 50px;
+}
+.icon .time p{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 1127px;
+    width: 50px;
+    height: 50px;
 }

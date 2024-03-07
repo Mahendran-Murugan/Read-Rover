@@ -1,51 +1,44 @@
-body{
-    padding: 0;
+html,body{
     margin: 0;
+    padding: 0;
+    background-color: #e1f8fc;
     font-family: Arial, Helvetica, sans-serif ;
-    background-color: #e1f8fc;
 }
 
-.contactText {
-    margin-bottom: 2rem;
+header{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(46, 103, 152) ;
 }
 
-header {
-    background-color: #fefefe;
-    padding: 1rem;
-}
-
-footer {
-    background-color: #fefefe;
-    padding: 1rem;
-}
-
-section {
-    background-color: #e1f8fc;
-    padding: 2rem;
-}
-
-.centerContainer {
+.item1{
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;   
-    margin-top: 2rem; 
-}
-
-.centerText {
-    display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.subhead{
+   color:black;
+   font-size:26px;
+   line-height: 2 ;
+   padding: 40px;
+}
+.description{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 16px;
+    color: rgb(46, 46, 46);
+    font-style: bold;
+}
+.item3{
+    font-size: 20px;
+    width:40%;
 }
 
-.maintext {
-    font-size: 30px;
-    margin-bottom: 1rem;
-}
-
-.centerImage {
-    filter: drop-shadow(7px 7px 7px #3b3b3b);
-    -webkit-filter: drop-shadow(7px 7px 7px #3b3b3b);
-    margin-top: 1rem;
+.head{
+    font-size: 22px;
+    color: red;
 }
