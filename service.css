@@ -1,0 +1,59 @@
+body{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
+    background-color: #e1f8fc;
+}
+.hole1{
+    background-color: #f2f0ee;
+    padding-bottom: 50px;
+}
+.main1{
+    text-align: center;
+    color: #134d0c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images h1{
+    color: rgb(20, 65, 65);
+}
+.images p{
+    color: rgb(145, 83, 3);
+}
+span{
+    color: #f3701d;
+    font-size: 30px;
+    margin-top: -7px;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+a:link{
+    color:aqua
+}
+a:visited{
+    color: orangered
+}
+a:hover{
+    color: rgb(62, 13, 107);
+}
+a:active{
+    color: rgb(185, 39, 161);
+}
+.images p{
+    text-align: justify;
+}
+.img{
+    width: 330px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
